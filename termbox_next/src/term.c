@@ -130,6 +130,7 @@ static struct term terms[] = {
 	{"rxvt-256color", rxvt_256color_keys, rxvt_256color_funcs},
 	{"Eterm", eterm_keys, eterm_funcs},
 	{"screen", screen_keys, screen_funcs},
+	{"tmux-256color", screen_keys, screen_funcs},
 	{"rxvt-unicode", rxvt_unicode_keys, rxvt_unicode_funcs},
 	{"linux", linux_keys, linux_funcs},
 	{"xterm", xterm_keys, xterm_funcs},
